@@ -1,0 +1,23 @@
+	Pedigree:    testped.csv
+	Phenotypes:  1_phen.csv
+	Trait:       node_1_INORM          Individuals:  1098
+
+			 H2r is 0.3524007  p = 7.977988e-11  (Significant)
+	       H2r Std. Error:  0.0558402
+
+                                      age  p = 0.4726345  (Not Sig., but fixed)
+                                      sex  p = 6.7907629e-07  (Significant)
+                                  age*sex  p = 0.8517970  (Not Sig., but fixed)
+                                    age^2  p = 0.8238831  (Not Sig., but fixed)
+                                age^2*sex  p = 0.2490929  (Not Sig., but fixed)
+
+	Proportion of Variance Due to All Final Covariates Is
+				  0.0326455
+
+	Loglikelihoods and chi's are in node_1_INORM/polygenic.logs.out
+	Best model is named poly and null0
+	Final models are named poly, spor, nocovar
+	Initial sporadic and polygenic models are s0 and p0
+	Constrained covariate models are named no<covariate name>
+
+	Residual Kurtosis is -0.0505, within normal range

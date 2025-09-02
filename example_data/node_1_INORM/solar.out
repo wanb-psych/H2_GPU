@@ -1,0 +1,29 @@
+ 
+                       Solar  Tue Sep  2 11:51:54 2025
+ 
+                            Pedigree:  testped.csv
+                           Phenotypes:  1_phen.csv
+ 
+       Incomplete data in pedigree(s) which include these individual IDs:
+       51330 51552 51956 52343 52462 52497 52500 52575 52840 52933 54588
+       56135
+
+                              Pedigrees Excluded
+                              --------- --------
+           Pedigrees  People   Females   Males    MZTwins Probands
+               12        41       20       21        2        0
+
+                              Pedigrees Included
+                              --------- --------
+           Pedigrees  People   Females   Males    MZTwins Probands
+              444      2104     1010     1094      332        0
+
+            Descriptive Statistics for the Variables (Non-Probands)
+
+           Variable       Mean       Std Dev       Minimum      Maximum   Avail
+       node_1_INORM    -0.002971     0.993140     -3.118964     3.118964   1098
+                age    28.823315     3.699520     22.000000    37.000000   1098
+
+                   The non-proband analysis sample size is  1098.
+             (Note: THIS is the sample size for the means shown above.)
+                The sample size including probands used is  1098.

@@ -1,0 +1,191 @@
+ 
+                       Solar  Tue Sep  2 11:51:48 2025
+ 
+                            Pedigree:  testped.csv
+                           Phenotypes:  1_phen.csv
+
+
+                        Model Parameter Optimizations
+
+                Parameter    Final Val     Std Err       Const
+                               Start        Lower        Upper
+                     mean    0.1543681                          
+                             0.1564812   -3.1189639    3.1189639
+ 
+                       sd    0.9775224                          
+                             0.9772646    0.0000000    4.9656977
+ 
+                       e2    0.6473292               # 1        
+                             0.6475994    0.0300000    1.0000000
+ 
+                      h2r    0.3526708               # 1        
+                             0.3524006    0.0000000    1.0000000
+ 
+                     bage    0.0000000               # 2        
+                             0.0000000   -0.5198273    0.5198273
+ 
+                     bsex   -0.4283324                          
+                            -0.4299309   -7.7974097    7.7974097
+ 
+                 bage*sex -4.82975E-03                          
+                          3.213627E-03   -0.5198273    0.5198273
+ 
+                   bage^2 4.286837E-04                          
+                          6.567590E-04   -0.0346552    0.0346552
+ 
+               bage^2*sex 5.313649E-03                          
+                          5.095227E-03   -0.0346552    0.0346552
+ 
+
+                           Loglikelihood =    -503.444184
+
+                    Normalized Quadratic =       1.000000
+
+                              Iterations =      13
+ 
+       Incomplete data in pedigree(s) which include these individual IDs:
+       51330 51552 51956 52343 52462 52497 52500 52575 52840 52933 54588
+       56135
+
+                              Pedigrees Excluded
+                              --------- --------
+           Pedigrees  People   Females   Males    MZTwins Probands
+               12        41       20       21        2        0
+
+                              Pedigrees Included
+                              --------- --------
+           Pedigrees  People   Females   Males    MZTwins Probands
+              444      2104     1010     1094      332        0
+
+            Descriptive Statistics for the Variables (Non-Probands)
+
+           Variable       Mean       Std Dev       Minimum      Maximum   Avail
+       node_1_INORM    -0.002971     0.993140     -3.118964     3.118964   1098
+                age    28.823315     3.699520     22.000000    37.000000   1098
+
+                   The non-proband analysis sample size is  1098.
+             (Note: THIS is the sample size for the means shown above.)
+                The sample size including probands used is  1098.
+
+                    Using SOLAR Quantitative Trait Modeling
+
+
+                 Model Parameter Starting Points and Boundaries
+
+                Parameter      Start        Lower        Upper
+                     mean    0.1564812   -3.1189639    3.1189639
+                       sd    0.9772646    0.0000000    4.9656977
+                       e2    0.6475994    0.0300000    1.0000000
+                      h2r    0.3524006    0.0000000    1.0000000
+                     bage    0.0000000   -0.5198273    0.5198273
+                     bsex   -0.4299309   -7.7974097    7.7974097
+                 bage*sex 3.213627E-03   -0.5198273    0.5198273
+                   bage^2 6.567590E-04   -0.0346552    0.0346552
+               bage^2*sex 5.095227E-03   -0.0346552    0.0346552
+ 
+
+                         Parameter Minima and Maxima
+
+ mean        sd          e2          h2r         bage        bsex       
+ bage*sex    bage^2      bage^2*sex 
+
+ -0.3119D+01  0.0000D+00  0.3000D-01  0.0000D+00 -0.5198D+00 -0.7797D+01
+ -0.5198D+00 -0.3466D-01 -0.3466D-01
+
+  0.3119D+01  0.4966D+01  0.1000D+01  0.1000D+01  0.5198D+00  0.7797D+01
+  0.5198D+00  0.3466D-01  0.3466D-01
+
+                             Parameter Constraints
+
+    CVALUE   mean        sd          e2          h2r         bage       
+ bsex        bage*sex    bage^2      bage^2*sex 
+
+  0.1000D+01  0.0000D+00  0.0000D+00  0.1000D+01  0.1000D+01  0.0000D+00
+  0.0000D+00  0.0000D+00  0.0000D+00  0.0000D+00
+
+  0.0000D+00  0.0000D+00  0.0000D+00  0.0000D+00  0.0000D+00  0.1000D+01
+  0.0000D+00  0.0000D+00  0.0000D+00  0.0000D+00
+
+                              Iteration History
+
+Iter Step Loglikelihood mean          sd            e2            h2r          
+                        bage          bsex          bage*sex      bage^2       
+                        bage^2*sex   
+
+  1   0  -0.5036726D+03  0.156481D+00  0.977265D+00  0.647599D+00  0.352401D+00
+                         0.000000D+00 -0.429931D+00  0.321363D-02  0.656759D-03
+                         0.509523D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1001D+01.
+
+  2   3  -0.5036085D+03  0.157266D+00  0.980245D+00  0.646398D+00  0.353602D+00
+                         0.000000D+00 -0.420802D+00  0.164746D-02  0.758562D-03
+                         0.518374D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9949D+00.
+
+  3   3  -0.5035322D+03  0.147799D+00  0.976123D+00  0.643806D+00  0.356194D+00
+                         0.000000D+00 -0.411504D+00 -0.545191D-03  0.609657D-03
+                         0.530766D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1004D+01.
+
+  4   3  -0.5034969D+03  0.144823D+00  0.979908D+00  0.644348D+00  0.355652D+00
+                         0.000000D+00 -0.415931D+00 -0.197156D-02  0.512792D-03
+                         0.538827D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9959D+00.
+
+  5   3  -0.5034565D+03  0.149666D+00  0.977914D+00  0.645692D+00  0.354308D+00
+                         0.000000D+00 -0.429421D+00 -0.392993D-02  0.641908D-03
+                         0.549895D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9996D+00.
+
+  6   3  -0.5034443D+03  0.154164D+00  0.977670D+00  0.646722D+00  0.353278D+00
+                         0.000000D+00 -0.428006D+00 -0.485108D-02  0.448532D-03
+                         0.527896D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9998D+00.
+
+  7   3  -0.5034442D+03  0.154488D+00  0.977606D+00  0.647231D+00  0.352769D+00
+                         0.000000D+00 -0.428486D+00 -0.482486D-02  0.423935D-03
+                         0.532125D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9999D+00.
+
+  8   4  -0.5034442D+03  0.154393D+00  0.977593D+00  0.647341D+00  0.352659D+00
+                         0.000000D+00 -0.428353D+00 -0.483127D-02  0.428939D-03
+                         0.531370D-02
+
+    The normalized quadratic form at the preceding iteration is 0.9999D+00.
+
+  9   0  -0.5034442D+03  0.154368D+00  0.977522D+00  0.647329D+00  0.352671D+00
+                         0.000000D+00 -0.428333D+00 -0.483005D-02  0.428658D-03
+                         0.531365D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1000D+01.
+
+ 10   0  -0.5034442D+03  0.154368D+00  0.977522D+00  0.647329D+00  0.352671D+00
+                         0.000000D+00 -0.428332D+00 -0.482975D-02  0.428684D-03
+                         0.531365D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1000D+01.
+
+ 11   0  -0.5034442D+03  0.154368D+00  0.977522D+00  0.647329D+00  0.352671D+00
+                         0.000000D+00 -0.428332D+00 -0.482975D-02  0.428684D-03
+                         0.531365D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1000D+01.
+
+ 12   0  -0.5034442D+03  0.154368D+00  0.977522D+00  0.647329D+00  0.352671D+00
+                         0.000000D+00 -0.428332D+00 -0.482975D-02  0.428684D-03
+                         0.531365D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1000D+01.
+
+ 13   0  -0.5034442D+03  0.154368D+00  0.977522D+00  0.647329D+00  0.352671D+00
+                         0.000000D+00 -0.428332D+00 -0.482975D-02  0.428684D-03
+                         0.531365D-02
+
+    The normalized quadratic form at the preceding iteration is 0.1000D+01.

@@ -1,0 +1,43 @@
+    *** Loglikelihood of sporadic model with all covars is -523.640321
+
+    *** Loglikelihood of polygenic model with all covars is -503.186279
+
+
+    *** Loglikelihood w/o covar age is -503.444184
+    *** chi = 0.5158, deg = 1
+    *** p = 0.4726345  (Not Sig., but fixed)
+
+    *** Loglikelihood w/o covar sex is -515.523085
+    *** chi = 24.6736, deg = 1
+    *** p = 6.7907629e-07  (Significant)
+
+    *** Loglikelihood w/o covar age*sex is -503.203731
+    *** chi = 0.0349, deg = 1
+    *** p = 0.8517970  (Not Sig., but fixed)
+
+    *** Loglikelihood w/o covar age^2 is -503.211044
+    *** chi = 0.0495, deg = 1
+    *** p = 0.8238831  (Not Sig., but fixed)
+
+    *** Loglikelihood w/o covar age^2*sex is -503.850471
+    *** chi = 1.3284, deg = 1
+    *** p = 0.2490929  (Not Sig., but fixed)
+
+    *** Loglikelihood of sporadic model is -523.640321
+
+    *** Loglikelihood of polygenic model is -503.186279
+    *** H2r in polygenic model is 0.3524007
+
+    *** Determining significance of H2r
+    *** Comparing polygenic and sporadic models
+    *** chi = 40.9081, deg = 1, p = 7.977988e-11
+
+    *** Trait SD in model with covariates is 0.9772646
+    *** Trait SD in model without covariates is 0.9936177
+    *** Proportion of variance explained by covariates is 0.0326455
+ 
+    H2r is 0.3524007  p = 7.977988e-11  (Significant)
+	 H2r Std. Error:  0.0558402
+
+
+	Summary results are in node_1_INORM/polygenic.out
