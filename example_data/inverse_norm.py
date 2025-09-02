@@ -10,7 +10,7 @@ def inverse_normal_transform(series):
     # Rank the data (average ranks for ties)
     ranks = rankdata(series, method='average')
     # Convert ranks to uniform quantiles
-    u = (ranks - 0.5) / len(series)
+    u = ranks / (len(series) + 1)
     # Apply inverse normal transform
     return pd.Series(norm.ppf(u), index=series.index)
 
