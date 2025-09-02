@@ -33,7 +33,9 @@
 
 - Make sure you have CUDA installed in the computing machine: $ nvidia-smi
 
-- run $ $SOLAR < run_solar.sh # output is the heritability estimates.
+- Before running solar, we have to normalize the phenotype scores by $python inverse_norm.py. Output is input_inorm.csv.
+
+- run $ $SOLAR < run_solar.sh # input is input_inorm.csv, and output is the heritability estimates.
 ```
 
 ### Difference between GPU and CPU computing
