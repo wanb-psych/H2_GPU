@@ -35,3 +35,12 @@
 
 - run $ $SOLAR < run_solar.sh # output is the heritability estimates.
 ```
+
+### Difference between GPU and CPU computing
+
+```
+- Node_1_INORM is the folder containing procedures using CPU to calculate the heritability of node_1.
+
+- output_CPU.csv is the example file of all nodes using CPU. There are a few differences, but the overall pattern/scale is similar. 
+
+```
