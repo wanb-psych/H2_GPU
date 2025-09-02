@@ -1,0 +1,22 @@
+***********************************************************************************                                     
+*        Fast Permutation Heritability Inference (FPHI) Summary of Results        *
+***********************************************************************************
+  Pedigree:    testped.csv
+  Phenotypes:  input.csv
+  Trait:   node_1_INORM H2r = 0.352442827766 SE = 0.0558322952446  Individuals:  1098
+  polygenic loglik:   -504.65609103  sporadic loglik:   -525.116515665  p = 7.92604695063e-11 (Significant)
+Fully Converged Parameters
+
+      Name               Value           Std Error
+
+
+ Parameter           Fit Value      Standard Error
+       age   -0.00512138774589      0.013075899113
+       sex       0.43007285574     0.0862472670319
+   age*sex   -0.00318302079846      0.017224434065
+     age^2     0.0057515886357    0.00325274214716
+ age^2*sex   -0.00508615308876    0.00442592890895
+      mean     -0.270644473058     0.0647125733054
+        e2      0.647557172234     0.0558322952446
+       h2r      0.352442827766     0.0558322952446
+        sd      0.978578089698     0.0216842352335
