@@ -7,7 +7,7 @@
 
 - Make sure these files are in the working directory. Otherwise, copy them to your working directory where you start to run SOLAR. 
 
-- Suggestion: input.csv, putout.csv, pedigree_files, and script (all files) are in the same folder.
+- Suggestion: input.csv, outout.csv, pedigree_files, and script (all files) are in the same folder.
 ```
 
 ### Step 2. Phenotype file preparation
