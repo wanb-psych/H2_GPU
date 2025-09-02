@@ -6,7 +6,7 @@
 ### Usage: bash run_solar.sh <input_file> <output_file>
 
 ## load input file
-load pheno input.csv
+load pheno input_inorm.csv
 
 ## creating coviates
 covar age^1,2#sex
